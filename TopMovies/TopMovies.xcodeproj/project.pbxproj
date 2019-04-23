@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50DDBD16226F3912008306D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50DDBD15226F3912008306D8 /* UIKit.framework */; };
+		50DDBD18226F3912008306D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50DDBD17226F3912008306D8 /* Foundation.framework */; };
+		50DDBD1A226F3912008306D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50DDBD19226F3912008306D8 /* CoreGraphics.framework */; };
+		50DDBD20226F3912008306D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50DDBD1E226F3912008306D8 /* InfoPlist.strings */; };
+		50DDBD22226F3912008306D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DDBD21226F3912008306D8 /* main.m */; };
+		50DDBD26226F3912008306D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DDBD25226F3912008306D8 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50DDBD11226F3912008306D8 /* TopMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50DDBD15226F3912008306D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50DDBD17226F3912008306D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50DDBD19226F3912008306D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50DDBD1D226F3912008306D8 /* TopMovies-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TopMovies-Info.plist"; sourceTree = "<group>"; };
+		50DDBD1F226F3912008306D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50DDBD21226F3912008306D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50DDBD23226F3912008306D8 /* TopMovies-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TopMovies-Prefix.pch"; sourceTree = "<group>"; };
+		50DDBD24226F3912008306D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50DDBD25226F3912008306D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50DDBD0E226F3912008306D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DDBD16226F3912008306D8 /* UIKit.framework in Frameworks */,
+				50DDBD18226F3912008306D8 /* Foundation.framework in Frameworks */,
+				50DDBD1A226F3912008306D8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50DDBD06226F3912008306D8 = {
+			isa = PBXGroup;
+			children = (
+				50DDBD1B226F3912008306D8 /* TopMovies */,
+				50DDBD14226F3912008306D8 /* Frameworks */,
+				50DDBD12226F3912008306D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50DDBD12226F3912008306D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50DDBD11226F3912008306D8 /* TopMovies.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50DDBD14226F3912008306D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50DDBD15226F3912008306D8 /* UIKit.framework */,
+				50DDBD17226F3912008306D8 /* Foundation.framework */,
+				50DDBD19226F3912008306D8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50DDBD1B226F3912008306D8 /* TopMovies */ = {
+			isa = PBXGroup;
+			children = (
+				50DDBD24226F3912008306D8 /* AppDelegate.h */,
+				50DDBD25226F3912008306D8 /* AppDelegate.m */,
+				50DDBD1C226F3912008306D8 /* Supporting Files */,
+			);
+			path = TopMovies;
+			sourceTree = "<group>";
+		};
+		50DDBD1C226F3912008306D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50DDBD1D226F3912008306D8 /* TopMovies-Info.plist */,
+				50DDBD1E226F3912008306D8 /* InfoPlist.strings */,
+				50DDBD21226F3912008306D8 /* main.m */,
+				50DDBD23226F3912008306D8 /* TopMovies-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50DDBD10226F3912008306D8 /* TopMovies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50DDBD29226F3912008306D8 /* Build configuration list for PBXNativeTarget "TopMovies" */;
+			buildPhases = (
+				50DDBD0D226F3912008306D8 /* Sources */,
+				50DDBD0E226F3912008306D8 /* Frameworks */,
+				50DDBD0F226F3912008306D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopMovies;
+			productName = TopMovies;
+			productReference = 50DDBD11226F3912008306D8 /* TopMovies.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50DDBD08226F3912008306D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 50DDBD0B226F3912008306D8 /* Build configuration list for PBXProject "TopMovies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50DDBD06226F3912008306D8;
+			productRefGroup = 50DDBD12226F3912008306D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50DDBD10226F3912008306D8 /* TopMovies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50DDBD0F226F3912008306D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DDBD20226F3912008306D8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50DDBD0D226F3912008306D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DDBD22226F3912008306D8 /* main.m in Sources */,
+				50DDBD26226F3912008306D8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50DDBD1E226F3912008306D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50DDBD1F226F3912008306D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50DDBD27226F3912008306D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50DDBD28226F3912008306D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50DDBD2A226F3912008306D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopMovies/TopMovies-Prefix.pch";
+				INFOPLIST_FILE = "TopMovies/TopMovies-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50DDBD2B226F3912008306D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopMovies/TopMovies-Prefix.pch";
+				INFOPLIST_FILE = "TopMovies/TopMovies-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50DDBD0B226F3912008306D8 /* Build configuration list for PBXProject "TopMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50DDBD27226F3912008306D8 /* Debug */,
+				50DDBD28226F3912008306D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50DDBD29226F3912008306D8 /* Build configuration list for PBXNativeTarget "TopMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50DDBD2A226F3912008306D8 /* Debug */,
+				50DDBD2B226F3912008306D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50DDBD08226F3912008306D8 /* Project object */;
+}
