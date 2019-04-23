@@ -22,7 +22,7 @@
     [[self window] addSubview:[navVC view]];
     [[self window] makeKeyAndVisible];
     
-    [[vc view] setBackgroundColor:[UIColor redColor]];
+    [vc setTitle:@"MyVC"];
     return YES;
 }
 
