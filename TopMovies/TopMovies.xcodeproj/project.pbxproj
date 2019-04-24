@@ -341,6 +341,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv6;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -362,6 +363,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv6;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
